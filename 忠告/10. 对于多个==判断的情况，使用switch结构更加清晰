@@ -1,0 +1,12 @@
+对于多个==判断的情况，使用switch结构更加清晰。
+
+注意新语法使用->，如果有多条语句，需要用{}括起来。
+不要写break语句，因为新语法只会执行匹配的语句，没有穿透效应。
+
+很多时候，我们还可能用switch语句给某个变量赋值。例如：
+String fruit = "apple";
+int opt = switch (fruit) {
+    case "apple" -> 1;
+    case "pear", "mango" -> 2;
+    default -> 0;
+};
