@@ -6,4 +6,5 @@
 if (s1 != null && s1.equals("hello")) {
     System.out.println("hello");
 }
-还可以把一定不是null的对象"hello"放到前面：例如：if ("hello".equals(s)) { ... }。
+还可以把一定不是null的对象"hello"放到前面：
+例如：if ("hello".equals(s)) { ... }
