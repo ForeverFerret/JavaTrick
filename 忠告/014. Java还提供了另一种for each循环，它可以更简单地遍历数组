@@ -1,0 +1,9 @@
+int[] ns = { 1, 4, 9, 16, 25 };
+    for (int n : ns) {
+    System.out.println(n);
+}
+
+和for循环相比，for each循环的变量n不再是计数器，而是直接对应到数组的每个元素。
+for each循环的写法也更简洁。但是，for each循环无法指定遍历顺序，也无法获取数组的索引。
+
+除了数组外，for each循环能够遍历所有“可迭代”的数据类型，包括后面会介绍的List、Map等。
